@@ -1,0 +1,225 @@
+2023-02-16 05:13:36,582 [1] INFO  - Loaded appender: FileAppenderInternal
+2023-02-16 05:13:36,589 [1] INFO  - Loaded appender: FileAppenderExternal
+2023-02-16 05:13:36,589 [1] INFO  - Loaded appender: UserLoggerAppender
+2023-02-16 05:13:36,589 [1] INFO  - Loaded appender: FileAppenderInternal
+2023-02-16 05:13:36,590 [1] INFO  - Loaded appender: FileAppenderExternal
+2023-02-16 05:13:36,590 [1] INFO  - Loaded appender: UserLoggerAppender
+2023-02-16 05:13:37,603 [8] INFO  - Step 'Start' : Step 'Start' started
+2023-02-16 05:13:37,752 [8] INFO  - Step 'Start' ended successfully
+2023-02-16 05:13:37,757 [8] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2023-02-16 05:13:38,292 [8] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2023-02-16 05:13:38,294 [8] INFO  - Step 'GetFlights' : Step 'GetFlights' started
+2023-02-16 05:13:38,310 [8] INFO  - 
+Request:
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetFlights xmlns="HP.SOAQ.SampleApp">
+      <DepartureCity>Denver</DepartureCity>
+      <ArrivalCity>Seattle</ArrivalCity>
+      <FlightDate>2115-06-01T00:00:00</FlightDate>
+    </GetFlights>
+  </Body>
+</Envelope>
+
+2023-02-16 05:13:38,330 [8] INFO  - URL: http://localhost:8000/Flights_SOAP
+2023-02-16 05:13:38,355 [8] INFO  - Returning the response to the previous channel
+2023-02-16 05:13:38,362 [8] INFO  - 
+Response:
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetFlightsResponse xmlns="HP.SOAQ.SampleApp">
+      <GetFlightsResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <Flight>
+          <Airline>USA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>12:48 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:38 AM</DepartureTime>
+          <FlightNumber>1089</FlightNumber>
+          <Price>196.4</Price>
+        </Flight>
+        <Flight>
+          <Airline>USA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>02:00 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>11:50 AM</DepartureTime>
+          <FlightNumber>5525</FlightNumber>
+          <Price>184</Price>
+        </Flight>
+        <Flight>
+          <Airline>USA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>03:12 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>01:02 PM</DepartureTime>
+          <FlightNumber>5774</FlightNumber>
+          <Price>185.2</Price>
+        </Flight>
+        <Flight>
+          <Airline>UA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>03:24 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:24 AM</DepartureTime>
+          <FlightNumber>6261</FlightNumber>
+          <Price>174.47</Price>
+        </Flight>
+        <Flight>
+          <Airline>UA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>05:48 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:48 PM</DepartureTime>
+          <FlightNumber>6265</FlightNumber>
+          <Price>177.47</Price>
+        </Flight>
+        <Flight>
+          <Airline>UA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>08:12 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>03:12 PM</DepartureTime>
+          <FlightNumber>6269</FlightNumber>
+          <Price>170.47</Price>
+        </Flight>
+        <Flight>
+          <Airline>USA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>04:24 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>02:14 PM</DepartureTime>
+          <FlightNumber>7194</FlightNumber>
+          <Price>199.2</Price>
+        </Flight>
+        <Flight>
+          <Airline>USA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>08:00 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>05:50 PM</DepartureTime>
+          <FlightNumber>7512</FlightNumber>
+          <Price>160.4</Price>
+        </Flight>
+        <Flight>
+          <Airline>USA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>11:36 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>09:26 AM</DepartureTime>
+          <FlightNumber>7922</FlightNumber>
+          <Price>174.4</Price>
+        </Flight>
+        <Flight>
+          <Airline>USA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>10:24 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>08:14 AM</DepartureTime>
+          <FlightNumber>8057</FlightNumber>
+          <Price>183.2</Price>
+        </Flight>
+        <Flight>
+          <Airline>USA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>05:36 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>03:26 PM</DepartureTime>
+          <FlightNumber>8383</FlightNumber>
+          <Price>183.2</Price>
+        </Flight>
+        <Flight>
+          <Airline>USA</Airline>
+          <ArrivalCity>Seattle</ArrivalCity>
+          <ArrivalTime>09:12 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>07:02 PM</DepartureTime>
+          <FlightNumber>9409</FlightNumber>
+          <Price>176.8</Price>
+        </Flight>
+      </GetFlightsResult>
+    </GetFlightsResponse>
+  </s:Body>
+</s:Envelope>
+
+2023-02-16 05:13:38,384 [8] INFO  - Structural Validation: True
+2023-02-16 05:13:38,390 [8] INFO  - Step 'GetFlights' ended successfully
+2023-02-16 05:13:38,392 [8] INFO  - Step 'CreateFlightOrder' : Step 'CreateFlightOrder' started
+2023-02-16 05:13:38,401 [8] INFO  - 
+Request:
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <Body>
+    <CreateFlightOrder xmlns="HP.SOAQ.SampleApp">
+      <FlightOrder>
+        <Class>Economy</Class>
+        <CustomerName>Ann Frank</CustomerName>
+        <DepartureDate>2115-06-01T00:00:00</DepartureDate>
+        <FlightNumber>1089</FlightNumber>
+        <NumberOfTickets>3</NumberOfTickets>
+      </FlightOrder>
+    </CreateFlightOrder>
+  </Body>
+</Envelope>
+
+2023-02-16 05:13:38,403 [8] INFO  - URL: http://localhost:8000/Flights_SOAP
+2023-02-16 05:13:38,413 [8] INFO  - Returning the response to the previous channel
+2023-02-16 05:13:38,414 [8] INFO  - 
+Response:
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <CreateFlightOrderResponse xmlns="HP.SOAQ.SampleApp">
+      <CreateFlightOrderResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <OrderNumber>89</OrderNumber>
+        <TotalPrice>1767.6</TotalPrice>
+      </CreateFlightOrderResult>
+    </CreateFlightOrderResponse>
+  </s:Body>
+</s:Envelope>
+
+2023-02-16 05:13:38,416 [8] INFO  - Step 'CreateFlightOrder' ended successfully
+2023-02-16 05:13:38,417 [8] INFO  - Step 'SearchOrderByID' : Step 'SearchOrderByID' started
+2023-02-16 05:13:44,334 [8] INFO  - Step 'SearchOrderByID' : Input Parameter 'tOrderNumber', Value: '89'
+2023-02-16 05:13:44,476 [8] INFO  - Step 'SearchOrderByID' : Input Parameter 'tPassengerName', Value: 'Ann Frank'
+2023-02-16 05:14:03,120 [8] INFO  - Step 'SearchOrderByID' ended successfully
+2023-02-16 05:14:03,128 [8] INFO  - Step 'UpdateFlightOrder' : Step 'UpdateFlightOrder' started
+2023-02-16 05:14:03,130 [8] INFO  - 
+Request:
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <Body>
+    <UpdateFlightOrder xmlns="HP.SOAQ.SampleApp">
+      <UpdateFlightOrderDetails>
+        <CustomerName>Updated Name</CustomerName>
+        <OrderNumber>89</OrderNumber>
+      </UpdateFlightOrderDetails>
+    </UpdateFlightOrder>
+  </Body>
+</Envelope>
+
+2023-02-16 05:14:03,132 [8] INFO  - URL: http://localhost:8000/Flights_SOAP
+2023-02-16 05:14:03,157 [8] INFO  - Returning the response to the previous channel
+2023-02-16 05:14:03,158 [8] INFO  - 
+Response:
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <UpdateFlightOrderResponse xmlns="HP.SOAQ.SampleApp">
+      <UpdateFlightOrderResult>true</UpdateFlightOrderResult>
+    </UpdateFlightOrderResponse>
+  </s:Body>
+</s:Envelope>
+
+2023-02-16 05:14:03,162 [8] INFO  - Structural Validation: True
+2023-02-16 05:14:03,165 [8] INFO  - Step 'UpdateFlightOrder' ended successfully
+2023-02-16 05:14:03,166 [8] INFO  - Step 'SearchOrderByID' : Step 'SearchOrderByID' started
+2023-02-16 05:14:03,224 [8] INFO  - Step 'SearchOrderByID' : Input Parameter 'tOrderNumber', Value: '89'
+2023-02-16 05:14:03,237 [8] INFO  - Step 'SearchOrderByID' : Input Parameter 'tPassengerName', Value: 'Updated Name'
+2023-02-16 05:14:23,040 [8] INFO  - Step 'SearchOrderByID' ended successfully
+2023-02-16 05:14:23,043 [8] INFO  - Step 'Iteration 1' ended successfully
+2023-02-16 05:14:23,046 [8] INFO  - Step 'Test Flow' ended successfully
+2023-02-16 05:14:23,125 [8] INFO  - Step 'End' : Step 'End' started
+2023-02-16 05:14:23,131 [8] INFO  - Step 'End' ended successfully

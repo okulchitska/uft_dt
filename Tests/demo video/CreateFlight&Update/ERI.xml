@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Owners>
+  <OwnerId>8</OwnerId>
+  <OwnerType>TEST</OwnerType>
+  <Name><![CDATA[CreateFlight&Update]]></Name>
+  <FSRoot><![CDATA[Test\8\8\8]]></FSRoot>
+  <FSPath><![CDATA[Test\8\8\8]]></FSPath>
+  <QCPath><![CDATA[Subject\demo video\CreateFlight&Update]]></QCPath>
+  <Owner>
+    <OwnerId>8</OwnerId>
+    <OwnerType>TEST</OwnerType>
+    <Name><![CDATA[CreateFlight&Update]]></Name>
+    <FSRoot><![CDATA[Test\8\8\8]]></FSRoot>
+    <FSPath><![CDATA[Test\8\8\8]]></FSPath>
+    <QCPath><![CDATA[Subject\demo video\CreateFlight&Update]]></QCPath>
+    <Relation>
+      <RelatedId>1024</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[CreateFlight&Update]]></Name>
+      <FSRoot><![CDATA[Test\8\8\8]]></FSRoot>
+      <FSPath><![CDATA[Test\8\8\8]]></FSPath>
+      <QCPath><![CDATA[Subject\demo video\CreateFlight&Update]]></QCPath>
+    </Relation>
+  </Owner>
+</Owners>
+

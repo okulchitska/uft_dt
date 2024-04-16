@@ -1,0 +1,145 @@
+<EnvironmentProfiles><Table><NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Profiles" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Profiles">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VarName" type="xs:string" minOccurs="0" />
+                <xs:element name="IsSystem" type="xs:boolean" default="false" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="SystemProfile" type="xs:string" minOccurs="0" />
+                <xs:element name="Profile1" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1">
+        <xs:selector xpath=".//Profiles" />
+        <xs:field xpath="VarName" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Profiles>
+    <VarName>IsLoadTest</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Not Available In Design Time</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>TestDir</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>TestName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>LocalHostName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>IVW12B</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>OS</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Windows</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>OSVersion</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Microsoft Windows NT 6.3.9600.0</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>ProductDir</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>C:\Program Files (x86)\Micro Focus\Unified Functional Testing\</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>ProductName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Micro Focus Unified Functional Testing</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>ProductVer</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>15.0</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>UserName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Administrator</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentDate</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>2/16/2023 5:12:38 AM</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>QcUrl</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>http://localhost:8088/qcbin</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>QcUserName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>admin</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>QcPassword</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000C5F1ED8305AFE5469FE424A3BE8158B6000000000200000000001066000000010000200000000EEA8108BA6B824FF08E173103727DE43B29318386F96B4D825758C8D9578795000000000E8000000002000020000000148183705FFFF26746D0551DD6229CAF89DD1685A912E2FCB2A6DAA3E93E1C1920000000F67E8C8CBFC04C8E3E9F1A75AF7FE552F0B287B66EAA298080BD39DFB73085EE40000000FE938D37EC3F187B1EC382014E6886B857B79FE5E8A9F1AE02F08457E9E466B80E2A48E4B3971938D859C7CBD2D71198A51616EE05FE3EE3D3D76D2D71562D3C@@encrypted@@</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>QcDomain</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>DEFAULT</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>QcProject</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>sdk</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentRunID</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentTestSetID</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentTestSet</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentTestInstanceID</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+</NewDataSet></Table><ActiveProfile>Profile1</ActiveProfile></EnvironmentProfiles>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Owners>
+  <OwnerId>29</OwnerId>
+  <OwnerType>TEST</OwnerType>
+  <Name><![CDATA[test with data table]]></Name>
+  <FSRoot><![CDATA[Test\29\29\29]]></FSRoot>
+  <FSPath><![CDATA[Test\29\29\29]]></FSPath>
+  <QCPath><![CDATA[Subject\with resources\test with data table]]></QCPath>
+  <Owner>
+    <OwnerId>29</OwnerId>
+    <OwnerType>TEST</OwnerType>
+    <Name><![CDATA[test with data table]]></Name>
+    <FSRoot><![CDATA[Test\29\29\29]]></FSRoot>
+    <FSPath><![CDATA[Test\29\29\29]]></FSPath>
+    <QCPath><![CDATA[Subject\with resources\test with data table]]></QCPath>
+    <Relation>
+      <RelatedId>1083</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Main Test Flow]]></Name>
+      <FSRoot><![CDATA[Test\29\29\29]]></FSRoot>
+      <FSPath><![CDATA[Test\29\29\29]]></FSPath>
+      <QCPath><![CDATA[Subject\with resources\test with data table]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1084</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSRoot><![CDATA[Test\29\29\29]]></FSRoot>
+      <FSPath><![CDATA[Test\29\29\29]]></FSPath>
+      <QCPath><![CDATA[Subject\with resources\test with data table]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1016</RelatedId>
+      <RelatedType>RESOURCES</RelatedType>
+      <Name><![CDATA[FlightAppData.xlsx]]></Name>
+      <FSRoot><![CDATA[resources\1016]]></FSRoot>
+      <FSPath><![CDATA[resources\1016]]></FSPath>
+      <QCPath><![CDATA[Resources\UFT Resources\FlightAppData.xlsx]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>22</Order>
+      <FileName>SampleAppData.xlsx</FileName>
+      <SubType>Data table</SubType>
+    </Relation>
+    <Relation>
+      <RelatedId>1085</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action1]]></Name>
+      <FSRoot><![CDATA[Test\29\29\29]]></FSRoot>
+      <FSPath><![CDATA[Test\29\29\29]]></FSPath>
+      <QCPath><![CDATA[Subject\with resources\test with data table]]></QCPath>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>1085</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action1]]></Name>
+    <FSRoot><![CDATA[Test\29\29\29]]></FSRoot>
+    <FSPath><![CDATA[Test\29\29\29]]></FSPath>
+    <QCPath><![CDATA[Subject\with resources\test with data table]]></QCPath>
+    <Relation>
+      <RelatedId>1084</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSRoot><![CDATA[Test\29\29\29]]></FSRoot>
+      <FSPath><![CDATA[Test\29\29\29]]></FSPath>
+      <QCPath><![CDATA[Subject\with resources\test with data table]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>2</Order>
+    </Relation>
+  </Owner>
+</Owners>

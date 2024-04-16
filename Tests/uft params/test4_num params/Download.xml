@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Owners>
+  <OwnerId>25</OwnerId>
+  <OwnerType>TEST</OwnerType>
+  <Name><![CDATA[test4_num params]]></Name>
+  <FSRoot><![CDATA[Test\25\25\25]]></FSRoot>
+  <FSPath><![CDATA[Test\25\25\25]]></FSPath>
+  <QCPath><![CDATA[Subject\uft params\test4_num params]]></QCPath>
+  <Owner>
+    <OwnerId>1073</OwnerId>
+    <OwnerType>USER_ASSETS</OwnerType>
+    <Name><![CDATA[Action1]]></Name>
+    <FSRoot><![CDATA[Test\25\25\25]]></FSRoot>
+    <FSPath><![CDATA[Test\25\25\25]]></FSPath>
+    <QCPath><![CDATA[Subject\uft params\test4_num params]]></QCPath>
+    <Relation>
+      <RelatedId>1072</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSRoot><![CDATA[Test\25\25\25]]></FSRoot>
+      <FSPath><![CDATA[Test\25\25\25]]></FSPath>
+      <QCPath><![CDATA[Subject\uft params\test4_num params]]></QCPath>
+      <Condition>NONE</Condition>
+      <Order>3</Order>
+    </Relation>
+  </Owner>
+  <Owner>
+    <OwnerId>25</OwnerId>
+    <OwnerType>TEST</OwnerType>
+    <Name><![CDATA[test4_num params]]></Name>
+    <FSRoot><![CDATA[Test\25\25\25]]></FSRoot>
+    <FSPath><![CDATA[Test\25\25\25]]></FSPath>
+    <QCPath><![CDATA[Subject\uft params\test4_num params]]></QCPath>
+    <Relation>
+      <RelatedId>1073</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action1]]></Name>
+      <FSRoot><![CDATA[Test\25\25\25]]></FSRoot>
+      <FSPath><![CDATA[Test\25\25\25]]></FSPath>
+      <QCPath><![CDATA[Subject\uft params\test4_num params]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1071</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Main Test Flow]]></Name>
+      <FSRoot><![CDATA[Test\25\25\25]]></FSRoot>
+      <FSPath><![CDATA[Test\25\25\25]]></FSPath>
+      <QCPath><![CDATA[Subject\uft params\test4_num params]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>1072</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSRoot><![CDATA[Test\25\25\25]]></FSRoot>
+      <FSPath><![CDATA[Test\25\25\25]]></FSPath>
+      <QCPath><![CDATA[Subject\uft params\test4_num params]]></QCPath>
+    </Relation>
+  </Owner>
+</Owners>
